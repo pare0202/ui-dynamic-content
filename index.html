@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>UI and Dynamic Content</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="masthead">
+                <h1>Grocery Store</h1>
+            </div>
+        </header>
+        <main>
+            <div class="box">
+                <div id="groceries">
+                    <form name="formName">
+                        <h2>What did you need to buy today....?</h2>
+                        <input type="text" id="input-text" placeholder="Type here..." required>
+                        <input type="button" id="btn" value="Add to list">
+                        <!--<button onclick="removeItem()">Clear</button>-->
+                    </form>
+                </div>
+                <ul id="listName">
+                    <li></li>
+                </ul>
+                <p id="feedback"></p>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-bg">
+                <div class="box">
+                    <p>Copyright &copy;2018 - Saloni Parekh</p>
+                    <ul>
+                        <li><img src="img/googlePlus.jpg" width="50" height="50"></li>
+                        <li><img src="img/fb.png" width="50" height="50"></li>
+
+                        <li><img src="img/twitter.png" width="50" height="50"></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
